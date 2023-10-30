@@ -1,10 +1,12 @@
 # TRENDIFY- GitHub Trending Repositories Viewer
 Trendify is a lightweight, cross-platform application that lets you explore the latest trending repositories on GitHub.Discover the hottest repositories and trends on GitHub with our Trending Repositories Application.Stay up-to-date with the latest tech trends, star your favorite repositories, and contribute to the world of open-source development. Trendify offers an intuitive interface for viewing repository details, READMEs, and more.
 
+
 # App Architecture
 Based on mvvm architecture and repository pattern.
 
 ![3](https://github.com/KashviJoshi/TRENDIFY-/assets/116963136/f55cb949-c876-4044-8b30-8d79f5a66caf)
+
 
 # Key Features:
 Browse and search trending repositories on GitHub.
@@ -20,15 +22,14 @@ Real-time synchronization with GitHub Trends.
 ![2](https://github.com/KashviJoshi/TRENDIFY/assets/116963136/7cfadb60-a6f7-4eab-9c48-022478fcfd71)
 
 
-
 # App Packages
 data - contains
   
-  api - contains the api classes to make api calls to FreshlyPressed server, using Retrofit.
+    api - contains the api classes to make api calls to FreshlyPressed server, using Retrofit.
   
-  db - contains the db classes to cache network data.
+    db - contains the db classes to cache network data.
   
-  repository - contains the repository classes, responsible for triggering api requests and saving the response in the database.
+    repository - contains the repository classes, responsible for triggering api requests and saving the response in the database.
 
 di - contains ViewModelkey.
 
